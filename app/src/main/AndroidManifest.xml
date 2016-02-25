@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.learninghorizon.skibuddy">
+
+    <uses-permission android:name="com.javapapers.android.androidlocationmaps.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-library android:name="com.google.android.maps" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".FacebookLogin"
+            android:label="@string/title_activity_facebook_login"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".tracker.RunActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <receiver
+            android:name=".tracker.LocationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.learninghorizon.skibuddy.tracker.ACTION_LOCATION" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAILQwMQ_VVB5Sw2ZaH8Wa3DwoTIen2-oQ" />
+
+      <!-- <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBpYuYAnMK2owVATz91HgafTRJAQh8SoTE" />-->
+        <!-- production key-->
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".CreateEvent"
+            android:label="@string/title_activity_create_event"
+            android:parentActivityName=".MainActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".UsersList"
+            android:label="@string/title_activity_create_event"
+            android:parentActivityName=".CreateEvent"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".EventAttendies"
+            android:label="@string/app_name"
+            android:parentActivityName=".CreateEvent"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".UserProfile"
+            android:label="@string/title_activity_user_profile"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".AttendiesSkiSessions"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
