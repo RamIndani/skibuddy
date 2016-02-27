@@ -18,12 +18,10 @@ High Level Architecture of the project
 <img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image05.png"  height="420"/><br/>
 <img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image06.png"  height="420"/><br/>
 <img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image07.png"  height="420"/><br/>
-<img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image08.png"  height="420"/><br/>
 <img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image09.png"  height="420"/><br/>
 <img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image10.png"  height="420"/><br/>
 <img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image11.png"  height="420"/><br/>
 <img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image12.png"  height="420"/><br/>
 <img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image13.png"  height="420"/><br/>
-<img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image14.png"  height="420"/><br/>
 <img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image15.png"  height="420"/><br/>
 <img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image16.png"  height="420"/><br/>
