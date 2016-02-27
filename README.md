@@ -15,7 +15,6 @@ High Level Architecture of the project
 <img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image03.png"  height="420"/><br/>
 
 <img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image04.png"  height="420"/><br/>
-<img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image05.png"  height="420"/><br/>
 <img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image06.png"  height="420"/><br/>
 <img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image07.png"  height="420"/><br/>
 <img src = "https://github.com/RamIndani/skibuddy/blob/master/images/image09.png"  height="420"/><br/>
